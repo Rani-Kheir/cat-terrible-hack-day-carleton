@@ -1,0 +1,62 @@
+.j1 {
+  font-family: 'Lato', sans-serif;
+  background-color: #ccc;
+  padding: 240px 0 80px;
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/03/15/29/animals-1234379_960_720.jpg');
+  background-position: center;
+  background-size: auto;
+  background-repeat: repeat;
+  min-height: 30vh;
+  text-align: center;
+}
+
+.j1 h1 {
+  font-size: 5em;
+  font-weight: 600;
+  line-height: .9em;
+  color: #ffffff;
+  text-shadow: -1px 0 #d35400,0 1px #d35400,1px 0 #d35400,0 -1px #d35400;
+}
+
+
+.footer {
+  min-height: 150px;
+  background-color: #d35400;
+  padding: 60px 0;
+  color: #fff;
+}
+
+.footer h2 {
+  margin-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer hr {
+  margin: 800px auto;
+}
+
+.footer a {
+  color: #FFBBDA;
+}
+
+.container {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.feedback {
+  align-content: center;
+}
+
+.feedback h2 {
+  color: #d35400;
+  font-weight: 300;
+  font-size: 4rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-full {
+  overflow: visible;
+  max-height: none;
+  display: block;
+}
