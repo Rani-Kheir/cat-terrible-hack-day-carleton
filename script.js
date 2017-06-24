@@ -113,3 +113,25 @@ function beautify(event, obj) {
   .replace(/hate/ig, "love");
   obj.value = goodText;
 }
+
+function previewFile() {
+  $('.dragonSpot').hide();
+  $('.imageSpot').hide();
+  var preview = document.querySelector('img');
+  var file    = document.querySelector('input[type=file]').files[0];
+  var reader  = new FileReader();
+  $('.loading').slideDown();
+
+ reader.addEventListener("load", function () {
+    preview.src = reader.result;
+  }, false);
+
+ if (file) {
+    reader.readAsDataURL(file);
+  }
+  setTimeout(function(){
+    $('.loading').hide();
+    $('.dragonSpot').show();
+    $('.imageSpot').show();
+  }, 1500);
+}
