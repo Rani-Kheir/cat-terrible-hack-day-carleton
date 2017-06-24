@@ -18,13 +18,22 @@
         </div>
       </div>
     </div>
+  
+   <input type="file" onchange="previewFile()">
+   <br><br>
+   <div class="imageSpot" style="position:relative;">
+     <img style="height:400px;" hidden src="" height=“400" class="imageSpot">
+     <img class="dragonSpot" hidden height="300" src="d.png" style="position:absolute;top:35;left:25;">
+   </div>
+   <br>
+   <p class="loading" hidden>Loading...</p>
 
     <section class="feedback">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2>What do you think of the event?</h2>
-            <p>Let us know using the contact form below. Please be as vulgar as you can possibly be.</p>
+            <h2>What do you think of this app?</h2>
+            <p>Let us know using the fake form below. Please be as vulgar as you can possibly be.</p>
             <form>
               <textarea rows="10" cols="50" id="feedbackBox" placeholder="Type here pls"></textarea>
             </form>
@@ -33,6 +42,7 @@
         </div>
       </div>
     </section>
+  
 
 <section class="footer">
   <div class="container">
