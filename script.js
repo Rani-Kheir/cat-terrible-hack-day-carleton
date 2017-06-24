@@ -142,3 +142,8 @@ function previewFile() {
     $('.result').show();
   }, 1500);
 }
+
+$('.fakeSubmit').click(function() {
+  document.getElementById('feedbackBox').value = "";
+  alert("Sorry! Feedback was lost, pls type again");
+})
