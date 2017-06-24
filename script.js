@@ -117,6 +117,7 @@ function beautify(event, obj) {
 function previewFile() {
   $('.dragonSpot').hide();
   $('.imageSpot').hide();
+  $('.result').hide();
   var preview = document.querySelector('img');
   var file    = document.querySelector('input[type=file]').files[0];
   var reader  = new FileReader();
@@ -133,5 +134,6 @@ function previewFile() {
     $('.loading').hide();
     $('.dragonSpot').show();
     $('.imageSpot').show();
+    $('.result').show();
   }, 1500);
 }
