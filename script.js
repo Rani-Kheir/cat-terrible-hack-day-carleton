@@ -110,7 +110,12 @@ function beautify(event, obj) {
   .replace(/fag/ig, "sun")
   .replace(/jerk/ig, "rockstar")
   .replace(/piss/ig, "smile")
-  .replace(/hate/ig, "love");
+  .replace(/smell/ig, "win")
+  .replace(/disgusting/ig, "attractive")
+  .replace(/annoying/ig, "engaging")
+  .replace(/frustrating/ig, "refreshing")
+  .replace(/hate/ig, "love")
+  .replace(/poo/ig, "chocolate");
   obj.value = goodText;
 }
 
